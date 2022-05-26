@@ -2,6 +2,7 @@ import React from "react";
 import {FormattedDate, FormattedNumber} from 'react-intl';
 
 const Job = (props) => {
+  console.log('language', navigator.language); 
   return (
     <tr>
       <th scope="row">{props.offer.id}</th>
